@@ -71,6 +71,7 @@ h1 {
 .post pre,
 .post code {
   font-family: "Source Code Pro", Menlo, Consolas, monospace, '华文中宋';
+  background: #fafafa
 }
 
 #page-nav a {
