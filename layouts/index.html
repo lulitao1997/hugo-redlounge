@@ -9,7 +9,7 @@
 
           <div class="posts">
             {{ $Site := .Site }}
-            {{ range .Site.Pages }}
+            {{ range .Paginator.Pages }}
             <section  class="post">
                 <header class="post-header">
                     {{ if .Params.thumbnail }}
@@ -53,6 +53,7 @@
             {{ end }}
           </section>
           {{ end }}
+          {{ partial "pagination.html" . }}
         </div>
 
         {{ partial "footer.html" . }}

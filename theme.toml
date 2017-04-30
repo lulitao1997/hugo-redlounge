@@ -7,7 +7,7 @@ homepage = "https://github.com/tmaiaroto/hugo-redlounge"
 tags = ["redlounge", "red", "raleway", "libre baskerville", "blog", "gallery"]
 features = ["blog", "gallery"]
 min_version = 0.14
-
+sidebartitle = "Lulitao's Blog"
 [author]
     name = "Tom Maiaroto"
     homepage = "http://www.shift8creative.com"
