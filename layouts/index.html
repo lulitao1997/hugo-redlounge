@@ -9,7 +9,7 @@
 
           <div class="posts">
             {{ $Site := .Site }}
-            {{ range where .Data.Pages "Section" "article" }}
+            {{ range where .Paginator.Pages "Section" "article" }}
                 {{ partial "postsection.html" . }}
             {{ end }}
             {{ partial "pagination.html" . }}

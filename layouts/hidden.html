@@ -10,7 +10,7 @@
 
           <div class="posts">
             {{ $Site := .Site }}
-            {{ range where .Data.Pages "Section" "hidden" }}
+            {{ range where .Paginator.Pages "Section" "hidden" }}
                {{ partial "postsection.html" . }}
             {{ end }}
             {{ partial "pagination.html" . }}
