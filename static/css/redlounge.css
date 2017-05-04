@@ -454,17 +454,31 @@ a.post-category:hover {
 	margin-bottom: 0.75rem;
 }
 .paging, .paging-older, .paging-newer {
-	clear: left;
+	/*clear: left;*/
 	font-size: 0.85rem;
 }
 .paging-older, .paging-newer {
 	margin-bottom: 0.25rem;
+    /*display: table-cell;*/
+}
+.paging-older {
+    text-align: left;
+    float: left;
+}
+.paging-newer {
+    text-align: right;
+    float: right;
 }
 .paging-label {
 	color: #999;
 	font-style: italic;
 }
-
+.paging-nav {
+    /*display: table;*/
+    margin-top: 15px;
+    /*width: 100%;*/
+    border-top: 1px solid #eee;
+}
 /* ToC */
 #toc {
 	float: right;
